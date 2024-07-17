@@ -1,0 +1,43 @@
+.outerbox {
+    background-color: rgb(6, 2, 24);
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-areas: 
+    'head head head'
+    'side con1 con1'
+    'side con2 con3'
+    'foot foot foot';
+    text-align: center;
+    font-size: 30px;
+}
+.div1 {
+    grid-area: head;
+    background-color: rgb(3, 3, 255);
+    padding: 50px;
+}
+.div2 {
+    grid-area: side;
+    background-color: rgb(10, 1, 86);
+    padding: 50px;
+}
+.div3{
+    grid-area: con1;
+    background-color: rgb(3, 178, 252);
+    padding: 50px;
+}
+.div4 {
+    grid-area: con2;
+    background-color: rgb(8, 250, 198);
+    padding: 50px;
+}
+.div5 {
+    grid-area: con3;
+    background-color: rgb(74, 205, 85);
+    padding: 50px;
+}
+.div6{
+    grid-area: foot;
+    background-color: rgb(132, 9, 239);
+    padding: 50px;
+}
